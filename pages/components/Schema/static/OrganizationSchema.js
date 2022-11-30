@@ -54,7 +54,7 @@ const BreadCrumbSchema = () => {
             ],
         },
     ];
-    return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }} />;
+    return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadCrumb }} />;
 };
 
 export default BreadCrumbSchema;
