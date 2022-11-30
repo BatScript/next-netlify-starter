@@ -1,6 +1,6 @@
 import React from "react";
 
-function createOrganizationSchema() {
+const createOrganizationSchema = () {
     return {
         "@context": "http://schema.org",
         "@type": "Organization",
