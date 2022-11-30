@@ -6,10 +6,11 @@ import OrganizationSchema from "./components/Schema/static/OrganizationSchema";
 export default function Home() {
     return (
         <div className="container">
+            <OrganizationSchema />
+
             <Head>
                 <title>Next.js Starter!</title>
                 <link rel="icon" href="/favicon.ico" />
-                <OrganizationSchema />
             </Head>
 
             <main>
